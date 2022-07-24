@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "uriparser in the modern C++"
-date:   2022-07-21 14:14:45 +0700
+date:   2022-06-21 14:14:45 +0700
 categories: c/c++
 ---
 # Introduction
