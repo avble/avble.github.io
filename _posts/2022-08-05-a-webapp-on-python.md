@@ -1,21 +1,22 @@
 # Introduction
-There are various web framework out there. They are included but not all, Django, Flask, etc.
-The Python itself also provides Internet Protocols and Support library. 
-This writing intends to use the library provided by Python only.
+To write a web application, there are various web framework out there. 
+They are included but not all, Django, Flask, etc. The Python itself also 
+provides a build-in library for developing web application, it is Internet
+Protocols and Support library.
 
-The application is to make the restful api for serving database.
-It does not depend on third library.
-It depends only on the python standard library 
+This writing intends to use the library provided by Python to demonstrate
+writing a restfull Api for blog web-application.
 
 For rest api:
-+ Use python built-in library
++ Use python built-in library, Internet Protocols and Support library.
 
 For database:
-+ The python has specified the database interface at PEP 249. Each instant database
-such as PostgresSQL, MySQL, etc have its own implementation.
++ The python has specified the database interface at PEP 249. Each instance
+database such as PostgresSQL, MySQL, sqlite3, etc have its own implementation.
+For this demonstration of blog web-application, the sqlite3 is selected.
 
 
-Talks is always cheaper than the some demonstration
+Talk is always cheaper than the actual works.
 
 # Implementaion
 ## Rest API
