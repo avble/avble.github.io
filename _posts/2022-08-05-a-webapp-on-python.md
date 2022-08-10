@@ -35,7 +35,7 @@ def get_posts_handle(self, post_id):
 ```
 
 Create a new post
-```python
+``` python
 # TBU 
 
 ```
