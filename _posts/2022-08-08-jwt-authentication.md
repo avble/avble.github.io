@@ -51,7 +51,7 @@ The general flow of using JWT is as below.
 
 2) Once the authorization is granted, it responses an access token.
 
-3) VERIFICATION the token to check if the application can use the access token to access the protected resource (API).
+3) VERIFICATION of the token to check if the application can use the access token to access the protected resource (API).
 
 
 The VERIFICATION process is very specific application. Continue the above example with assumption that the signature is signed by a private key `12345678`

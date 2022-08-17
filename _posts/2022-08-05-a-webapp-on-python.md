@@ -15,6 +15,9 @@ For database:
 database such as PostgresSQL, MySQL, sqlite3, etc have its own implementation.
 For this demonstration of blog web-application, the sqlite3 is selected.
 
+For Front-end:
++ At the time of writing, python does not have the built-in library for template rendering.
+Fortunately, Jinja2 library is one candidate for redering the template.
 
 Talk is always cheaper than the actual works.
 
@@ -60,6 +63,13 @@ def db_init():
         if g_db['prod'] == False:
             db_add_test_data()
 ```
+
+## Front end app
+```python
+
+```
+
+
 
 
 The entire source code can be found [here](https://github.com/avble/py-demo-blog)
