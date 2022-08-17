@@ -83,3 +83,7 @@ signature = jwt_verify('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY
 print (signature)
 ### Return True
 ```
+
+The entire source code can be found 
+[implement-1](https://github.com/avble/py-backend-experiments/blob/master/03_utils/jwt_ex.py)
+[implement-2](https://github.com/avble/py-backend-experiments/blob/master/03_utils/jwt_verify.py)

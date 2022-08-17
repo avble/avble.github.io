@@ -1,0 +1,22 @@
+/* Right column */
+.leftcolumn {   
+    float: left;
+    width: 20%;
+  }
+  
+.rightcolumn {
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #portraits{
+    border-radius: 50%;
+  }
