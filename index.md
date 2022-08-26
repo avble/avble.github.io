@@ -11,7 +11,7 @@ title: About
 <div class="rightcolumn">
 
 <h1> About </h1>
-I am software engineer with specialty in
+I am a software engineer with specialty in
 <ul>
 <li>Writing backend application and deploy it to cloud provider. </li>
 <li>Writing the software application and flash it into non volatile memory of MCU, embedded-linux device </li>
