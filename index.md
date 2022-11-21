@@ -4,10 +4,6 @@ title: About
 ---
 <div class="row">
 
-<div class="leftcolumn">
-<img id = "portraits" src="assets/img/portraits.jpg" alt="Avatar">
-</div>
-
 <div class="rightcolumn">
 
 <h1> About </h1>
@@ -27,7 +23,6 @@ I am a software engineer with specialty in
 
 <h1> Professional Experience </h1>
 <ul>
-<li>Liquid, Vietnam </li>
 <li>Hitachi Vantara, Vietnam </li>
 <li>Brightree, Singapore</li>
 <li>Teleview, South Korea </li>
