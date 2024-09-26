@@ -2,10 +2,18 @@
 layout: home
 ---
 
-Currently, the area of interesting is high-traffic application, microservice architect, scalability application.
 
-I found interested in writing application running on Linux. They are either backend appliation on Cloud or embeeded application running on BSP board.
+ <!-- <img src="assets/img/portrais.jpg" alt="Avatar">  -->
+<img class="center" id = "portraits" src="assets/img/portraits_2.jpg" alt="Avatar">
 
-I also have opportunity to work on various stack of software development: backend application, desktop application, Linux embedded application.
-
-
+<div id="social" stype="text-align:center">
+<center>
+<a href="https://github.com/avble" class="fa fa-github" style="font-size:24px;padding-right: 10px"></a>
+<a href="https://www.linkedin.com/in/harry090123/" class="fa fa-linkedin" style="font-size:24px"></a>
+</center>
+</div>
+<h1 style="text-align:center"> Software Engineer </h1>
+<h2 style="text-align:center"> distributed system, Linux application, Backend </h2>
+<p style="text-align:center">
+Work on various stack of software development: Backend, Desktop, Linux embedded application.
+</p>

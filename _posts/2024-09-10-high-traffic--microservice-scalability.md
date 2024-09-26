@@ -11,7 +11,8 @@ To name a few, nodejs (javascript), aiohttp (python), boost-beast (C++), boost-a
 [libevent](https://https://github.com/libevent/libevent) library is very popular in utilizing non-blocking socket.
 And it is widely used in several [application](https://libevent.org/).
 
-[av_http](https://github.com/avble/av_http/) has implemented an mini-http server based on the libevent. 
+I have created [mini-http server](https://github.com/avble/av_http/) from scratch by based on the libevent. 
+
 
 av_http presents an intutive way(modern look) source code for creating a http server.
 In addition, an experiment on performance is also exercised. Its result is more impressive than my expectation.
@@ -77,6 +78,7 @@ $ ab -k -c 50 -n 100000 127.0.0.1:12345/route_01
 ```
 
 | http server | Request per second | Remark |
+|-------|-----|
 | av_http  |      53K rps      |  av_http-0.0.1 |
 | nodejs   |    12K rps  | v12.22.9 |
 | aiohttp | 11k rps | 3.10.6 |
@@ -86,7 +88,7 @@ $ ab -k -c 50 -n 100000 127.0.0.1:12345/route_01
 Comparing with other http framework, which is found at [here](https://github.com/avble/av_http/example/performance)
 
 ## Concurrency
-[C100K](https://en.wikipedia.org/wiki/C10k_problem) is used to be a problem to handle a large number of client at the same time.
+[C10K](https://en.wikipedia.org/wiki/C10k_problem) is used to be a problem to handle a large number of client at the same time.
 
 This experimental result for av_http is conducted base on environment. And it looks impressive.
 * OS: Linux 5.15.153.1-microsoft-standard-WSL2
@@ -97,6 +99,7 @@ $ ab -k -c 1000 -n 1000000 127.0.0.1:12345/route_01
 ```
 
 |server | Concurrency Level | Request per second | Remark |
+|-------|-----|----|
 | av_http | 1,000 | ~41K rps | av_http-0.0.1 |
 | av_http | 2,000 | ~36K rps | av_http-0.0.1 |
 | av_http | 3,000 | ~36K rps | av_http-0.0.1 |
