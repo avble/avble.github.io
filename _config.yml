@@ -42,6 +42,7 @@ plugins:
 
 header_pages:
   - blogs.md
+  - publication.md
 
 minima:
   skin: dark
