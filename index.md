@@ -4,7 +4,7 @@ layout: home
 
 
  <!-- <img src="assets/img/portrais.jpg" alt="Avatar">  -->
-<img class="center" id = "portraits" src="assets/img/portraits_2.jpg" alt="Avatar">
+<img class="center" id = "portraits" src="assets/img/portraits.jpg" alt="Avatar">
 
 <div id="social" stype="text-align:center">
 <center>
