@@ -20,5 +20,5 @@ It surpasses several well-know/modern web framework.
 
 
 Note: performance test environment
-Hardware: `11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz` 
-OS: `microsoft-standard-WSL2` (Ubuntu 22.04.2 LTS)
+* Hardware: `11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz` 
+* OS: `microsoft-standard-WSL2` (Ubuntu 22.04.2 LTS)
