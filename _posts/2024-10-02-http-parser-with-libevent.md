@@ -3,9 +3,7 @@ layout: post
 title:  "[High-traffic http server] by http-parser with libevent"
 ---
 
-[http-parser](https://github.com/nodejs/llhttp) and [libevent](https://github.com/libevent/libevent) are well-know for parsing http request and I/O event library, respectively.
-
-I have created a minimun http erver by using these two library at [http-parser-libevent](https://github.com/avble/http-parser-with-libevent)
+I have created a [minimun http](https://github.com/avble/http-parser-with-libevent) using [http-parser](https://github.com/nodejs/llhttp) and [libevent](https://github.com/libevent/libevent) which are well-know for parsing http request and I/O event library, respectively.
 
 The below table shows its performance in term of `request per second`. It is very impressive.
 It surpasses several well-know/modern web framework.
