@@ -66,7 +66,9 @@ int main(int argc, char ** argv)
 # Performance
 There are several criterias for measuring the performance of a http server.
 
-And it varies from the hardward and OS. THe performance is measured on environment: `11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz` and `microsoft-standard-WSL2`
+This experimental result for av_http is conducted base on environment. And it looks impressive.
+* OS: Linux 5.15.153.1-microsoft-standard-WSL2
+* Hardware: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
 
 The ab tool is used to measure the performance. It is also understood that the evaluation result may vary on the environment (OS and hardware). 
 
@@ -78,11 +80,11 @@ $ ab -k -c 50 -n 100000 127.0.0.1:12345/route_01
 ```
 
 | http server | Request per second | Remark |
-|-------|-----|
-| av_http  |      53K rps      |  av_http-0.0.1 |
-| nodejs   |    12K rps  | v12.22.9 |
-| aiohttp | 11k rps | 3.10.6 |
-| flask   | 697 rps | 3.0.3 |
+|----|----|---|
+| av_http  |      ~75,000 rps      |  release-0.0.2 |
+| nodejs   |    ~12,000 rps  | v12.22.9 |
+| asiohttp | ~11,000 rps | 3.10.6 |
+| flask   | ~697 rps | 3.0.3 |
 
 
 Comparing with other http framework, which is found at [here](https://github.com/avble/av_http/example/performance)
@@ -90,22 +92,18 @@ Comparing with other http framework, which is found at [here](https://github.com
 ## Concurrency
 [C10K](https://en.wikipedia.org/wiki/C10k_problem) is used to be a problem to handle a large number of client at the same time.
 
-This experimental result for av_http is conducted base on environment. And it looks impressive.
-* OS: Linux 5.15.153.1-microsoft-standard-WSL2
-* Hardware: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
 
 ``` shell
 $ ab -k -c 1000 -n 1000000 127.0.0.1:12345/route_01
 ```
 
 |server | Concurrency Level | Request per second | Remark |
-|-------|-----|----|
-| av_http | 1,000 | ~41K rps | av_http-0.0.1 |
-| av_http | 2,000 | ~36K rps | av_http-0.0.1 |
-| av_http | 3,000 | ~36K rps | av_http-0.0.1 |
-| av_http | 4,000 | ~36K rps | av_http-0.0.1 |
-| av_http | 5,000 | ~36K rps | av_http-0.0.1 |
-| av_http | 10,000 | ~33K rps | av_http-0.0.1 |
-| av_http | 15,000 | ~30K rps | av_http-0.0.1 |
-| av_http | 20,000 | ~21K rps | av_http-0.0.1 |
+|----|----|---|---|
+| av_http | 1,000 | ~59,000 rps | release-0.0.2 |
+| av_http | 5,000 | ~49,000 rps | release-0.0.2 |
+| av_http | 10,000 | ~45,000 rps | release-0.0.2 |
+| av_http | 15,000 | ~42,000 rps | release-0.0.2 |
+| av_http | 20,000 | ~26,000 rps | release-0.0.2 |
 
+# History
++ Update experimental result for release-0.0.2
