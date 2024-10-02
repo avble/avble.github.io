@@ -17,3 +17,8 @@ It surpasses several well-know/modern web framework.
 | nodejs   |    12,000  | v12.22.9 |
 | asiohttp | 11,000 | 3.10.6 |
 | flask   | 697 | 3.0.3 |
+
+
+Note: performance test environment
+Hardware: `11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz` 
+OS: `microsoft-standard-WSL2` (Ubuntu 22.04.2 LTS)
