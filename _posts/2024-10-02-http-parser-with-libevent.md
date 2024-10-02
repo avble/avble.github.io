@@ -7,12 +7,12 @@ title:  "[High-traffic http server] by http-parser with libevent"
 
 I have created a minimun http erver by using these two library at [http-parser-libevent](https://github.com/avble/http-parser-with-libevent)
 
-The below table shows its performance. It is very impressive.
+The below table shows its performance in term of `request per second`. It is very impressive.
 It surpasses several well-know/modern web framework.
 
 | http server | Request per second | Remark |
 |----|----|----|
-| (http-parser-with-libevent)[https://github.com/avble/http-parser-with-libevent]  |      ~150,000      |  using llhttp-parser (not internal http of libevent) |
+| [http-parser-with-libevent](https://github.com/avble/http-parser-with-libevent)  |      ~150,000      |  using llhttp-parser (not internal http of libevent) |
 | internal http libevent  |      ~95,000      |  [bench_http](https://github.com/libevent/libevent/blob/master/test/bench_http.c) of libevent (release-2.1.12-stable) |
 | nodejs   |    12,000  | v12.22.9 |
 | asiohttp | 11,000 | 3.10.6 |
