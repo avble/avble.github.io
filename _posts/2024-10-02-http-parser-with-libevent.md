@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "[High-traffic http server] by http-parser with libevent"
+title:  "Demonstration http of http-parser with libevent"
 ---
 
-I have created a [minimun http](https://github.com/avble/http-parser-with-libevent) using [http-parser](https://github.com/nodejs/llhttp) and [libevent](https://github.com/libevent/libevent) which are well-know for parsing http request and I/O event library, respectively.
+I have created a [demonstration http](https://github.com/avble/http-parser-with-libevent) using [http-parser](https://github.com/nodejs/llhttp) and [libevent](https://github.com/libevent/libevent) which are well-know for parsing http request and I/O event library, respectively.
 
-The below table shows its performance in term of `request per second`. It is very impressive.
-It surpasses several well-know/modern web framework.
+The below table shows its performance in term of `request per second`. It is quite impressive.
 
 ab command for performance test
 ``` shell
