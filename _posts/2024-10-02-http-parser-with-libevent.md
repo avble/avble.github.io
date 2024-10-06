@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Demonstration http of http-parser with libevent"
+title:  "Demonstration of http server by using http-parser and libevent"
 ---
 
-I have created a [demonstration http](https://github.com/avble/http-parser-with-libevent) using [http-parser](https://github.com/nodejs/llhttp) and [libevent](https://github.com/libevent/libevent) which are well-know for parsing http request and I/O event library, respectively.
+I have created a [http server](https://github.com/avble/http-parser-with-libevent) using [http-parser](https://github.com/nodejs/llhttp) and [libevent](https://github.com/libevent/libevent) which are well-know for parsing http request and I/O event library, respectively.
+
+Libevent is well-know as an IO event library. http-parser is well-known for its using as http parser in nodejs
 
 The below table shows its performance in term of `request per second`. It is quite impressive.
 
-ab command for performance test
+ab (Apache Benchmark) command for performance test
 ``` shell
 $ ab -k -c 50 -n 100000 127.0.0.1:12345/route_01
 ```
