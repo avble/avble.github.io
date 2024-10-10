@@ -16,5 +16,6 @@ layout: home
 <h2 style="text-align:center"> distributed system, Linux application, Backend </h2>
 <p style="text-align:center">
 Work on various stack of software development
+ <br>
 I feel at home with C/C++. And able to play on the field with C#, Python, Javascript.
 </p>
