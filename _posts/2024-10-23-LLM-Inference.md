@@ -4,10 +4,10 @@ title:  "LLM inference with llama.cpp framework"
 ---
 
 
-# Motivation
+# [Motivation](https://github.com/avble/av_llm)
 I am a software engineer and interested in the MLL inference and its appliation.
 <br>
-This post intents to demonstrate the software libraries (components) connected together for making an simple LLM inference tool/application
+This post intents to demonstrate a [tool/application](https://github.com/avble/av_llm) that connect the software libraries (components) for making an simple LLM inference tool/application
 It is more engineering perspective that is to create the real application utilizing the LLM. In stead of looking into NLP concepts such as Neural network.
 <br>
 
@@ -15,7 +15,7 @@ It motivates me to create a [av_llm tool](https://github.com/avble/av_llm) so th
 
 You can go to `quick started` section of [av_llm tool](https://github.com/avble/av_llm) to get started with.
 
-This tools consists a Web UI (javascript), and OpenAI API server (C++) and LLM inferences (llama.cpp)
+[This tools](https://github.com/avble/av_llm) consists a Web UI (javascript), and OpenAI API server (C++) and LLM inferences (llama.cpp)
 
 
 ## Features
