@@ -25,7 +25,7 @@ You can go to `quick started` section of [av_llm tool](https://github.com/avble/
 * Currently, it only supports chat application
 
 ## Tech-stack
-* OpenAI API compatible server: [av_connect http server](https://github.com/avble/av_connect.git)
+* OpenAI API compatible server: [av_connect](https://github.com/avble/av_connect.git) http server
 * LLM Inference: [llama.cp](https://github.com/ggerganov/llama.cpp.git)
 * Web UI: Provide a simple web UI interface to explore/experiment
 
