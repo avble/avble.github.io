@@ -3,6 +3,7 @@ layout: post
 title:  "LLM inference with llama.cpp framework"
 ---
 
+
 # Motivation
 I am a software engineer and interested in the MLL inference and its appliation.
 <br>
@@ -29,8 +30,10 @@ This tools consists a Web UI (javascript), and OpenAI API server (C++) and LLM i
 
 
 ## Some snapshot
+![demo-2](https://github.com/avble/av_llm/blob/main/image/demo_3.JPG?raw=true)
+<br>
+<br>
 ![demo-1](https://github.com/avble/av_llm/blob/main/image/demo_1.JPG?raw=true)
-![demo-2](https://github.com/avble/av_llm/blob/main/image/demo_2.JPG?raw=true)
 
 
 # High-level of LLM inference
