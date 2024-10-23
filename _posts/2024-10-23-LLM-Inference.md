@@ -5,13 +5,14 @@ title:  "LLM inference with llama.cpp framework"
 
 
 # [Motivation](https://github.com/avble/av_llm)
-I am a software engineer and interested in the MLL inference and its appliation.
+The Large language models (LLMs) has evolutionized the NPL and it has pushed text generation applications, such as chat, assistant to the next level by producing text that displays a high level of understanding and fluency.
+
 <br>
-This post intents to demonstrate a [tool/application](https://github.com/avble/av_llm) that connect the software libraries (components) for making an simple LLM inference tool/application
+This post intents to demonstrate a [tool/application](https://github.com/avble/av_llm) that is collection of the software libraries (components) for making an simple LLM inference tool/application
 It is more engineering perspective that is to create the real application utilizing the LLM. In stead of looking into NLP concepts such as Neural network.
 <br>
 
-It motivates me to create a [av_llm tool](https://github.com/avble/av_llm) so that I can research/explore the real/potential capability of LLM inference and figure out how it is applied in each domain.
+It motivates to create a [av_llm tool](https://github.com/avble/av_llm) so that we can research/explore the LLM inference more and figure out how it is applied in each domain.
 
 You can go to `quick started` section of [av_llm tool](https://github.com/avble/av_llm) to get started with.
 
