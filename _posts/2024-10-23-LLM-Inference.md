@@ -12,7 +12,7 @@ This post intents to demonstrate a [tool/application](https://github.com/avble/a
 It is more engineering perspective that is to create the real application utilizing the LLM. In stead of looking into NLP concepts such as Neural network.
 <br>
 
-It motivates to create a [av_llm tool](https://github.com/avble/av_llm) so that we can research/explore the LLM inference more and figure out how it is applied in each domain.
+The [av_llm tool](https://github.com/avble/av_llm) can be used to explore/experiment the LLM inference more and figure out how it is applied in each domain.
 
 You can go to `quick started` section of [av_llm tool](https://github.com/avble/av_llm) to get started with.
 
