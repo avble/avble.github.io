@@ -32,6 +32,18 @@ You can go to `quick started` section of [av_llm tool](https://github.com/avble/
 * LLM Inference: [llama.cp](https://github.com/ggerganov/llama.cpp.git)
 * Web UI: Provide a simple web UI interface to explore/experiment
 
+## supported model
+As this simple tool is built on the top of [llama.cp](https://github.com/ggerganov/llama.cpp.git), it should support all models which llama.cpp supports.
+Name a few as below
+
+* LLaMA 1
+* LLaMA 2
+* LLaMA 3
+* [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+* [Mixtral MoE](https://huggingface.co/models?search=mistral-ai/Mixtral)
+* [DBRX](https://huggingface.co/databricks/dbrx-instruct)
+* [Falcon](https://huggingface.co/models?search=tiiuae/falcon)
+* [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
 
 ## Some snapshot
 ![demo-2](https://github.com/avble/av_llm/blob/main/image/demo_3.JPG?raw=true)
