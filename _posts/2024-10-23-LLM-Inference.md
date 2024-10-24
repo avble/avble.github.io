@@ -19,16 +19,16 @@ You can go to `quick started` section of [av_llm tool](https://github.com/avble/
 [This tools](https://github.com/avble/av_llm) consists of the main components as below.
 * LLM inference for text generation
 * A simple Web UI to explore the LLM inference
-* OpenAI API compatible server as interface between OpenAPI API client program
+* lightweight OpenAI API compatible http server as interface between OpenAPI API client program
 
 
 ## Features
-* OpenAI API compatible server (chat/completion stream endpoint)
+* lightweight OpenAI API compatible http server (chat/completion stream endpoint)
 * Simple Web UI for explore/debug
 * Basic LLM inferences
 
 ## Tech-stack
-* OpenAI API compatible server: [av_connect](https://github.com/avble/av_connect.git) http server
+* lightweight OpenAI API compatible http server: [av_connect](https://github.com/avble/av_connect.git) http server
 * LLM Inference: [llama.cp](https://github.com/ggerganov/llama.cpp.git)
 * Web UI: Provide a simple web UI interface to explore/experiment
 
