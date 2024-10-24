@@ -16,13 +16,16 @@ The [av_llm tool](https://github.com/avble/av_llm) can be used to explore/experi
 
 You can go to `quick started` section of [av_llm tool](https://github.com/avble/av_llm) to get started with.
 
-[This tools](https://github.com/avble/av_llm) consists a Web UI (javascript), and OpenAI API server (C++) and LLM inferences (llama.cpp)
+[This tools](https://github.com/avble/av_llm) consists of the main components as below.
+* LLM inference for text generation
+* A simple Web UI to explore the LLM inference
+* OpenAI API compatible server as interface between OpenAPI API client program
 
 
 ## Features
-* OpenAI API compatible server (chat and completion endpoint)
+* OpenAI API compatible server (chat/completion stream endpoint)
 * Simple Web UI for explore/debug
-* Currently, it only supports chat application
+* Basic LLM inferences
 
 ## Tech-stack
 * OpenAI API compatible server: [av_connect](https://github.com/avble/av_connect.git) http server
@@ -40,13 +43,13 @@ You can go to `quick started` section of [av_llm tool](https://github.com/avble/
 # High-level of LLM inference
 As a large language model, llama.cpp works by taking an input text, and then predicting what the next tokens, or words, should be.
 
-In my experimental, I use the sentenc `The quick brown fox jumps over the lazy dog` from [wikipedia](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog)
+In my experimental, I use the sentence `The quick brown fox jumps over the lazy dog` from [wikipedia](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog)
 
 If I give the input `The quick brown fox jumps` to the LLM inference, it will produce the next words as below.
 `over the lazy dog.`
 
 An LLM inference (such as llama.cpp) must do several intermediate steps between the given input and the predicted output.
-They are tokenize, embeddeding, logits, and sampling.
+They are `tokenize`, `embeddeding`, `logits`, and `sampling`.
 The [post](https://www.omrimallis.com/posts/understanding-how-llm-inference-works-with-llama-cpp/) explanation is reasonable so that we can have a better look at low-level of LLM inference.
 
 # Reference
