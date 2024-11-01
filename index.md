@@ -6,6 +6,7 @@ layout: home
  <!-- <img src="assets/img/portrais.jpg" alt="Avatar">  -->
 <img class="center" id = "portraits" src="assets/img/portrait.jpg" alt="Avatar">
 
+
 <div id="social" stype="text-align:center">
 <center>
 <a href="https://github.com/avble" class="fa fa-github" style="font-size:24px;padding-right: 10px"></a>
