@@ -9,9 +9,7 @@ Function calling is a feature that the given a `description` in natural language
 In order to achieve it, it is neccessary to let LLM model aware of all function description
 This post presents steps for function calling.
 
-In the this experiment, the pre-trained model [mistral-7b-instruct-v0.3-q4_K_S](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) is used.
-
-First, pre-trained model is fine-tuning by providing the below `function description`
+First, pre-trained model is given the below `function description`
 ``` json
 [
     {
@@ -58,3 +56,5 @@ The below is a snapshot of application during experimental.
 # Reference
 * https://platform.openai.com/docs/guides/function-calling
 * https://docs.llama-api.com/essentials/function
+* https://github.com/ggerganov/llama.cpp
+  
