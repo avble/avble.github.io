@@ -20,7 +20,7 @@ This study presents a RAG-based method for Q&A down-stream NLP tasks as below fi
 * The dotted arrow 1, and 2 illustrates creating vector database and fine-tunned model, respectively.
 * The solid arrow inllustrates the flow of getting predicted answer based on the given question.
 
-The Jupyter Notebook of this study can be found at [here](https://github.com/avble/llm_things/01_rag_qa)
+The Jupyter Notebook of this study can be found at [here](https://github.com/avble/llm_things/tree/main/01_rag_qa)
 
 # Data preparation
 Data comes from varous sources, the text in image, pdf, or excel files. 
