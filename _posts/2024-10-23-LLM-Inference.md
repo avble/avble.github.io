@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LLM inference with llama.cpp framework"
+title:  "LLM inference - lightweight openAI compatible server with llama.cpp"
 ---
 
 
@@ -15,17 +15,6 @@ It is more engineering perspective that is to explore/apply to the real applicat
 The [av_llm tool](https://github.com/avble/av_llm) can be used to explore/experiment the LLM inference more and figure out how it is applied in each domain.
 
 You can go to `quick started` section of [av_llm tool](https://github.com/avble/av_llm) to get started with.
-
-[This tools](https://github.com/avble/av_llm) consists of the main components as below.
-* LLM inference for text generation
-* A simple Web UI to explore the LLM inference
-* lightweight OpenAI API compatible http server as interface between OpenAPI API client program
-
-
-## Features
-* lightweight OpenAI API compatible http server (chat/completion stream endpoint)
-* Simple Web UI for explore/debug
-* Basic LLM inferences
 
 ## Tech-stack
 * lightweight OpenAI API compatible http server: [av_connect](https://github.com/avble/av_connect.git) http server

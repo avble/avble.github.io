@@ -9,37 +9,5 @@ layout: base
 
   {{ content }}
 
-  <h1> Latest posts</h1>
-
-  {% if site.paginate %}
-  {% assign posts = paginator.posts %}
-  {% else %}
-  {% assign posts = site.posts %}
-  {% endif %}
-
-
-  {%- if posts.size > 0 -%}
-  {%- if page.list_title -%}
-  <h2 class="post-list-heading">{{ page.list_title }}</h2>
-  {%- endif -%}
-  <ul class="post-list">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {% for i in (0..1) %}
-    {% assign post = posts[i] %}
-    <li>
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-      {%- endif -%}
-    </li>
-    {% endfor %}
-  </ul>
-
-  {%- endif -%}
 
 </div>
