@@ -82,9 +82,11 @@ The radio is used to make mini LM application. The below is some snapshots of it
 # Future work
 * Data preparation is very first step in Q&A LM application. And it is very specific domain. Should any dataset is obatained, will apply to demonstrate this study.
 * Similarity search is also a non-trivial step, which is to extract `context`. It significantly contributes to the performance of fine-tuned model. It is highly considered to make use of Faiss at [3] when its requirements are more complex.
+* Cause, detection, and mitigation of hallucinations have been summarized at [4]. It is worth of reading to improve the LM QnA performance
 
 # Reference
 * [1] https://arxiv.org/pdf/1810.04805, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 * [2] https://arxiv.org/pdf/2005.11401, Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
 * [3] https://github.com/facebookresearch/faiss, vector database
+* [4] https://arxiv.org/pdf/2311.05232, Hallucination survey
 
