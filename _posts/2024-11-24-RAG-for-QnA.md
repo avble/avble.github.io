@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RAG - a demonstration of RAG and finetuning for QnA"
+title: "RAG - a demonstration of RAG and finetuning pre-trained LLM model for QA LM appliation"
 ---
 
 # Introduction
