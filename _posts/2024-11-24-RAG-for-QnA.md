@@ -71,7 +71,7 @@ An embedding vector is computed from given question by [TencentBAC/Conan-embeddi
 A tuple (question, context) is feed to fine-tunned model to predict the answer.
 
 # mini QnA app
-The radio is used to make mini LM application. The below is some snapshots of it.
+The gradio is used to make mini LM application. The below is some snapshots of it.
 
 ![lm app 1](/assets/img/rag_gradio_app_1.png)
 
