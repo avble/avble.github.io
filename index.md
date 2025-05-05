@@ -13,14 +13,14 @@ layout: home
   </center>
 </div>
 <h1 style="text-align:center"> Software Engineer </h1>
-<h2 style="text-align:center"> distributed system, Linux application, Backend </h2>
+<!-- <h2 style="text-align:center"> distributed system, Linux application, Backend </h2> -->
 <p style="text-align:center">
   Work on various stack of software development
-  <br>
-  I feel at home with C/C++. And able to play on the field with C#, Python, Javascript.
+  <!-- <br>
+  I feel at home with C/C++. And able to play on the field with C#, Python, Javascript. -->
 </p>
 
-<table>
+<!-- <table>
   <tr>
     <td>LLM inference - fine-tuning LLM model for QnA</td>
     <td> <a href="https://github.com/avble/llm_things/tree/main/01_rag_qa"> source </a> - 
@@ -34,4 +34,4 @@ layout: home
       <a href="https://hub.docker.com/repository/docker/harryavble/av_llm"> docker </a>
     </td>
   </tr>
-</table>
+</table> -->
