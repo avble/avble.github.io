@@ -7,7 +7,11 @@ C/C++ is well-know for its performance. And IO event is emerging technique used 
 To name a few, nodejs (javascript), aiohttp (python), boost-beast (C++), boost-asio (C++).
 
 For application which required high-frequency, selecting a right framework/library is very important.
-This work is to measuring the performance among frameworks/libraries.
+
+This work is to develop 2 http servers in C++ and then their performance are compared with other frameworks/libraries.
+These two developed servers are [http-parser-with-libuv](https://github.com/avble/http_parser-libuv) and [http-parser-with-libevent](https://github.com/avble/http-parser-with-libevent)
+
+The experimental result shows that these two severs are well suited for application which the high-frequency is required.
 
 The below table shows its performance in term of `request per second`.
 
